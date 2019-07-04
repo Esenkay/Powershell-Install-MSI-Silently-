@@ -15,10 +15,14 @@ Check out each folder for available application and versions.
 - One liners or easily copied into powershell console, no need to download-import modules.
 - Store download in `$env:TEMP`
 - Named same as [Chocolatey](https://github.com/chocolatey) packages. Unfortunately `Chocolatey` is not [open source](https://github.com/chocolatey/shimgen). Discussion about open source was totally deleted by owner of `Chocolatey`. Without `shimgen` and given limitation of PATH on Windows - there is no good possibility to have package manager.
+- customization accepted by default are those which disable telemetry
+- as of now main repository contains only stuff which may be considered open source, but given proven history of tool, no open could be also included. So this gives basic safety against bloatware-malware-ads.
 
 # See also
 
-https://github.com/Limech/git-powershell-silent-install
+- https://github.com/Limech/git-powershell-silent-install for example of customization
+
+- https://github.com/dtgm/chocolatey-packages for parameters of command lines and location of executables and web scraping for new versions
 
 # Issues
 
