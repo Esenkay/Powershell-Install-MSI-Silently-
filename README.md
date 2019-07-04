@@ -14,7 +14,6 @@ Check out each folder for available application and versions.
 - Store download in `$env:TEMP`
 - Named same as [Chocolatey](https://github.com/chocolatey) packages. Unfortunately `Chocolatey` is not [open source](https://github.com/chocolatey/shimgen). Discussion about open source was totally deleted by owner of `Chocolatey`. Without `shimgen` and given limitation of PATH on Windows - there is no good possibility to have package manager.
 - customization accepted by default are those which disable telemetry
-- as of now main repository contains only stuff which may be considered open source, but given proven history of tool, no open could be also included. So this gives basic safety against bloatware-malware-ads.
 
 # See also
 
@@ -38,6 +37,10 @@ $ProgressPreference = 'SilentlyContinue'
 
 # Extensions
 
+## Check if already installed
+
+By registry or by file location or by running process or by PATH.
+
 ## Customer robust storage with check sums
 
 Given gateway IPFS running locally or gateway provided as parameters, download to and from IPFS. So that it can be shared and reused. And be available even if original source is not accessible.
@@ -54,6 +57,8 @@ Could do logging into `$env:TEMP` for each install and check installed files. Ho
 ## Parameters
 
 Could option for parameters into function, so without violation of `one liner`. Could do configuration per subset of users, not in main file. How to maintain parameters same named at scale?
+
+Possibly, PowerShell module would be good idea.
 
 ## Wrappers
 
